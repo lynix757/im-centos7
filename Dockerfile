@@ -1,4 +1,6 @@
 FROM centos:7
+MAINTAINER Pornsak Nuamnoi <pornsak.backup@gmail.com>
+
 RUN yum -y update && yum clean all
 # Install EPEL Repo
 RUN rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm \
